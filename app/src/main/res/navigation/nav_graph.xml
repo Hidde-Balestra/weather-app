@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loadingFragment">
+
+    <fragment
+        android:id="@+id/WeatherViewFragment"
+        android:name="com.hva.weather.ui.WeatherViewFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_weather_view">
+    </fragment>
+    <fragment
+        android:id="@+id/WeatherForecastViewFragment"
+        android:name="com.hva.weather.ui.WeatherForecastViewFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_forecast_hourly_view"/>
+    <fragment
+        android:id="@+id/LocationListFragment"
+        android:name="com.hva.weather.ui.LocationListFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_location_list">
+    </fragment>
+    <fragment
+        android:id="@+id/AddLocationListFragment"
+        android:name="com.hva.weather.ui.AddLocationListFragment"
+        android:label="@string/add_location_fragment_label"
+        tools:layout="@layout/fragment_add_location_list">
+    </fragment>
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.hva.weather.ui.LoadingFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.hva.weather.ui.SettingsFragment"
+        android:label="@string/settingsFragment"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

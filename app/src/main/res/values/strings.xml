@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">%s</string>
+    <string name="second_fragment_label">Locations</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="add_location_fragment_label">Add Location</string>
+    <string name="add_location_btn">Add location</string>
+    <string name="city_name_field">City name</string>
+    <string name="tvCurrentTemp">%d°%s</string>
+    <string name="tvCurrentWindSpeed">Wind speed: %d %s</string>
+    <string name="pressure_mb">Pressure: %d</string>
+    <string name="humidity">Humidity: %d\%%</string>
+    <string name="feelslike">Feels like: %d°%s</string>
+    <string name="vis">Visibility: %d%s</string>
+    <string name="uv">UV: %d</string>
+    <string name="wind_dir">Wind direction: %s</string>
+    <string name="settingsFragment">Settings</string>
+    <string name="tvMinAndMaxTemp">%d°%s - %d°%s</string>
+    <string name="tvRainChance">Rain chance %d\%%</string>
+    <string name="tvForecastDate">%s</string>
+    <string name="tvForecastTemp">%d°%s</string>
+
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="tvLastUpdated">Last updated: %s</string>
+    <string name="unknownPlaceErrorTitle">Unknown place</string>
+    <string name="btnOK">Ok</string>
+    <string name="try_to_use_an_known_place">Try to use an known place</string>
+</resources>
